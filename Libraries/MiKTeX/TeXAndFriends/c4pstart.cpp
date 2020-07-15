@@ -22,6 +22,8 @@
 #if defined(MIKTEX_WINDOWS)
 #include <Windows.h>
 #include <io.h>
+#else
+#include <unistd.h>
 #endif
 
 #include <fmt/format.h>
